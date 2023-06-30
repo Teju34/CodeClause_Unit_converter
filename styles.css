@@ -1,0 +1,107 @@
+body{
+  background-color: rgb(237, 168, 119);
+  opacity: 0.7;
+}
+h1 {
+  text-align: center;
+}
+
+.category-section {
+  margin: 20px auto;
+  width: 600px;
+  text-align: center;
+}
+
+.category-table {
+  display: table;
+  margin: 0 auto;
+}
+
+.category-row {
+  display: table-row;
+}
+
+.category-cell {
+  display: table-cell;
+  padding: 10px;
+}
+
+.category-link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: chocolate;
+}
+
+.category-box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid chocolate;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.category-box:hover {
+  transform: scale(1.1);
+}
+
+.category-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.category-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(8, 8, 8);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.category-box:hover .category-title {
+  opacity: 1;
+}
+
+
+
+h1 {
+  text-align: center;
+  color: rgb(210, 30, 30);
+}
+
+.conversion-section {
+  margin: 20px auto;
+  width: 300px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
